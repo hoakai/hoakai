@@ -5,13 +5,20 @@ function App() {
     <div className="app">
       <section className="hero">
         <div className="hero-overlay">
+          <nav className="navbar">
+            <a href="#">Home</a>
+            <a href="#">Species</a>
+            <a href="#">Ecosystems</a>
+            <a href="#">Activities</a>
+            <a href="#">About</a>
+          </nav>
           <h1>Hoakai</h1>
 
-          <h2>Know Hawaiʻi's Ocean</h2>
+          <h2>Marine Science Education for Hawaiʻi</h2>
 
           <p>
-            Explore beaches, identify marine species, and learn the ecosystems
-            that shape Hawaiʻi.
+            Explore Hawaiian marine ecosystems, discover native species, and learn
+            through interactive educational tools.
           </p>
         </div>
       </section>
@@ -19,42 +26,42 @@ function App() {
       <section className="cards">
 
         <div className="card">
-          <h3>🏝 Beach Explorer</h3>
+          <h3>🐟 Marine Species Guide</h3>
           <p>
-            Learn about habitats, geology, and marine life at Hawaiʻi's
-            beaches.
+            Learn about Hawaiian fish, limu, marine mammals, and other native
+            species through student-friendly profiles.
           </p>
         </div>
 
         <div className="card">
-          <h3>🐟 Fish Guide</h3>
+          <h3>🌊 Ecosystem Explorer</h3>
           <p>
-            Browse Hawaiian reef fish, pelagic species, and identification
-            tips.
+            Explore coral reefs, tidepools, estuaries, and coastal habitats across
+            Hawaiʻi.
           </p>
         </div>
 
         <div className="card">
-          <h3>🌿 Limu Guide</h3>
+          <h3>🌿 Limu Learning Center</h3>
           <p>
-            Discover native and invasive limu species and their ecological
-            importance.
+            Discover native and invasive limu species and their role in Hawaiian
+            marine ecosystems.
           </p>
         </div>
 
         <div className="card">
-          <h3>📚 Learn</h3>
+          <h3>📚 Learning Activities</h3>
           <p>
-            Explore marine ecology, conservation, and Hawaiian environmental
-            knowledge.
+            Practice identification skills and reinforce marine science concepts
+            through interactive activities.
           </p>
         </div>
 
         <div className="card">
-          <h3>🤖 AI Identifier</h3>
+          <h3>🤖 AI Species Identifier</h3>
           <p>
-            Upload photos of fish, limu, and marine organisms for instant
-            identification. Coming soon.
+            Upload photos of marine organisms and receive educational information and
+            species identification.
           </p>
         </div>
 
